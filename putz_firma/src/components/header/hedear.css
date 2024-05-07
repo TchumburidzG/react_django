@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Ruda:wght@400;600;700&display=swap");
+
+body {
+  background-color: #FFFFFF;
+  position: relative;
+  padding: 0;
+  background-color: rgb(222, 223, 223);
+}
+
+.header-container {
+  display: block;
+  background: #FFFF00;
+  padding-top: 0.5rem;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  max-width: 100%;
+  height: 100%;
+  margin: 0;
+  width: 100%;
+  padding: 0.2rem 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.site-name {
+  font-size: 1.1rem;
+  padding-left: 10px;
+  margin: 0;
+  cursor: pointer;
+  color: black;
+
+  
+}
+.site-name-link{
+  text-decoration: none;
+  background-color: inherit;
+  color: inherit;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family:'Times New Roman', Times, serif;
+  color: rgb(40, 40, 38);
+}
+.site-name h2{
+  margin: 0
+}
+
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0rem 0.2rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  align-items: center;
+  padding: 0.5rem 0.5rem;
+}
+nav ul li:hover{
+  background-color: #f8f9f6;
+  border-radius: 2rem;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  color: black;
+  padding: 0.7rem 1rem;
+  color: black;
+  text-shadow: 2px #FFFFFF;
+  justify-content: center;
+}
+
+.menu-btn {
+  display: none;
+}
+
+
+.messenger-container img{
+  height: 30px;
+  width: 30px;
+}
+.whatsapp-container img {
+  height: 30px;
+  width: 30px;
+}
+.telephone {
+  justify-content: center;
+  align-items: center; /* Add this for vertical centering */
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-left: 1rem;
+  color: black;
+  padding-right: 1rem;
+}
+.contact-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Media Query for Small Screens */
+@media only screen and (max-width: 1000px) {
+  nav ul {
+    display: none;
+  }
+  .container {
+    padding-right: 0.3rem;
+    
+  }
+
+  .menu-btn {
+    display: block;
+    cursor: pointer;
+    height: 2rem;
+    width: 3.5rem;
+    padding: 0;
+    margin: 0;
+    }
+  .menu-btn img {
+    height: 2.3rem;
+    fill: #42A661;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Show the navigation links when menu-btn is clicked */
+  .menu-btn.active + ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70px; /* Adjust the top position as needed */
+    left: 0;
+    width: 100%;
+    background: #FCFF52;
+  }
+  .site-name {
+    width: auto;
+    padding-left: 0rem;
+    margin-left: 0rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: rgb(66, 66, 66);
+  }
+
+  .messenger-container {
+    width: 2.3rem;
+  }
+  .whatsapp-container {
+    width: 2.3rem;
+  }
+
+  .messenger-container img{
+    height: 30px;
+    width: 30px;
+    padding: 3px;
+  }
+  .whatsapp-container img {
+    height: 30px;
+    width: 30px;
+    padding: 3px;
+  }
+
+  .contact-links {
+    display: flex;
+  }
+  
+  .telephone {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Add this for vertical centering */
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin: 0px;
+    padding:  0px;
+    width:100%;
+    color: rgb(44, 44, 44);
+  }
+  .site-name-link{
+    width: auto;
+    text-decoration: none;
+    background-color: inherit;
+    color: inherit;
+    font-size: 1.3rem;
+  }
+  header {
+    background: #FFFF00;
+    padding-top: 0.2rem;
+    margin: 0;
+    width: 100%;
+    height: auto;
+  }
+  .contact-links-mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-icons{
+    width: auto;
+    padding: 0;
+    margin: 0;
+  }
+  .messenger-container,
+  .whatsapp-container,
+  .instagram-container,
+  .tiktok-container {
+    padding: 0rem;
+  }
+
+  .messenger-container img,
+  .whatsapp-container img,
+  .instagram-container img,
+  .tiktok-container img {
+    height: 30px;
+    width: 30px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .contact-links{
+    width: 10rem;
+  }
+}

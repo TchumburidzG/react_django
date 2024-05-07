@@ -1,0 +1,194 @@
+.app-container{
+  background-color: #e0e1e1;
+  font-family: "Roboto", sans-serif;
+}
+
+.body-container {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+@media only screen and (max-width: 1300px){
+  .body-container {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+}
+@media only screen and (max-width: 1100px){
+  .body-container {
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
+}
+@media only screen and (max-width: 900px){
+  .body-container {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+}
+@media only screen and (max-width: 750px){
+  .body-container {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+}
+
+.vertical-sidebar {
+  height: 100%; /* Stellen Sie sicher, dass die Sidebar die gesamte Höhe des Elternelements einnimmt */
+  display: flex;
+  flex-direction: column; /* Ändern Sie die Ausrichtung auf vertikal */
+}
+
+.vertical-items {
+  height: 10rem;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar-container{
+  z-index: 100;
+  position: absolute;
+  top: 0px; /* Adjust the top position as needed */
+  right: 0px; 
+  padding-top: 0px;
+  margin-top: 0;
+  height: 100%;
+  margin-top: 4rem;
+}
+
+.group {
+  background-color: rgba(240, 240, 74, 0.968);
+  margin: 0;
+  padding: 0;
+  border-radius: 0.5rem;
+  height: 14rem;transition: transform 1s ease-in-out
+}
+.group li:hover{
+  background-color:  rgba(72, 72, 68, 0.968)
+}
+
+
+.sidebar-names {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  font-size: 1rem; /* Adjust the font size as needed */
+}
+.sidebar-names:hover{
+  background-color: beige;
+}
+.sidebar-icon {
+  height: 2.2rem;
+  width: 2.2rem;
+  padding-right: 10px;
+  margin: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  fill: rgb(1, 38, 107);
+}
+
+.sidebar-names a{
+  display: flex;
+  flex-direction: row;
+  text-decoration: none; 
+  align-items:flex-start;
+  justify-content: flex-start;
+  color:rgb(72, 72, 72);
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+.sidebar-container {
+  height: 0rem;
+}
+.sidebar-open {
+  transform: translateX(0); /* Slide in from right when sidebar is open */
+}
+.line {
+  border: solid black 1px;
+}
+
+.footer-container{
+  background-color:#33332E;
+  height: 300px;
+}
+
+.categories-container{
+  display:inline-block;
+  width: 60%;
+}
+
+.contact h4{
+  letter-spacing: 2px;
+  padding-right: 40px;
+}
+
+.contact-info{
+  width:max-content;
+  text-align: left;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+.contact-info p{
+  line-height: 13px;
+  font-size: 1rem;
+}
+.address{
+  line-height: 19px;
+}
+
+.footer-titles{
+  color: #F1F1F1;
+}
+
+
+.google-maps {
+  justify-content: center;
+  width: 100%;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  margin: 30px 0px;
+}
+.google-maps a {
+  text-decoration: none;
+}
+.besika {
+  width: 100%;
+  height: 400px;
+}
+
+.name-maps {
+  display: block;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.padding{
+  padding: 4px;
+}
+.slick-dots li button:before {
+  font-size: 13px !important;
+  font-weight: 900 !important;
+}
+
+.slick-slider{
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.slick-list {
+  border-radius: 4px;
+}
+.draging{
+  -webkit-user-drag: none;
+}

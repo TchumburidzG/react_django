@@ -1,0 +1,4 @@
+putzenv
+db.sqlite3
+putz_firma/node_modules/
+static/

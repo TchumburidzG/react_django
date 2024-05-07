@@ -1,0 +1,9 @@
+---
+deployment:
+  tasks:
+    - /bin/mkdir -p /home/cleaningtool.ge/tmp   # Create a temporary directory to store build files
+    - /usr/local/cpanel/3rdparty/bin/node /usr/local/cpanel/3rdparty/bin/npm install --prefix=/home/cleaningtool.ge/tmp  # Install dependencies
+    - /usr/local/cpanel/3rdparty/bin/node /usr/local/cpanel/3rdparty/bin/npm run build --prefix=/home/cleaningtool.ge/tmp  # Build the React app
+    - export DEPLOYPATH=/home/cleaningtool.ge/public_html/  # Specify the deployment path
+    - /bin/cp -R /home/cleaningtool.ge/tmp/build/* $DEPLOYPATH  # Copy the built files to public_html
+    - /bin/rm -rf /home/cleaningtool.ge/tmp  # Clean up temporary directory

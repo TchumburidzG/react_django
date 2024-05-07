@@ -1,0 +1,107 @@
+.services-title {
+  font-weight: 700;
+  font-size: 2.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(1, 38, 107);
+  margin-bottom: 20px;
+}
+
+.services-container{
+  padding:15px  30px;
+}
+
+
+.list-services {
+  list-style-type: none;
+}
+
+.list-services {
+  list-style: none;
+  padding: 0;
+}
+
+.list-services li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Adjust as needed */
+}
+
+.services-icon {
+  height: 11rem;
+  width: 11rem;
+  fill: rgb(1, 38, 107);
+  margin-right: 10px;
+  margin-left: 0px;
+  border-radius: 9rem;
+  -webkit-user-drag: none;
+}
+.service-offers {
+  width: 85%;
+  font-weight: 200;
+  font-size: 1.5rem;
+}
+
+
+
+.other-offers{
+  text-align: start;
+}
+
+.service-offers span {
+  background-color: #f8dc75;
+  border-radius: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 600;
+}
+
+.other-services {
+  font-weight: 200;
+  font-size: 1.5rem;
+  padding-top: 3rem;
+}
+
+.contact-us {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  margin-top: 1.2rem;
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+
+.my-messenger {
+  margin-left: 10px; /* Adjust this margin as needed */
+}
+
+.my-messenger a {
+  text-decoration: none;
+  color: inherit; /* Inherit color from the parent container */
+  font-weight: bold; /* Adjust font weight as needed */
+}
+
+@media only screen and (max-width: 900px) {
+  .services-title {
+    font-size: 1.5rem;
+  }
+  .services-icon {
+    height: 8rem;
+    width: 8rem;
+  }
+
+  .service-offers {
+    width: 85%;
+    font-size: 1.2rem;
+  }
+
+  .other-services {
+    font-size: 1.2rem;
+    padding-top: 3rem;
+  }
+  .contact-us {
+    font-size: 1rem;
+    margin-top: 1.2rem;
+  }
+}
