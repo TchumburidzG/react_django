@@ -3,7 +3,7 @@ import Cards from './components/cards/Cards';
 import Header from './components/header/Header';
 import SideBar from './components/sideBar/SideBar';
 import Contact from './components/contact/Contact';
-import React, { useState, useEffect, Component, Fragment } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import axios from "axios";
 import { API_URL } from "./constants";
@@ -12,7 +12,7 @@ import { useCallbackState } from './components/globalContext';
 
 function App() {
   const [showMenu, setShowMenu] = useState(false);
-  const { devices, setDevices } = useCallbackState();
+  const { setDevices } = useCallbackState();
 
   const getDevices = () => {
     axios.get(API_URL).then(res => setDevices(res.data));
@@ -25,7 +25,6 @@ function App() {
   useEffect(() => {
     resetState();
   }, []);
- 
   return (
     <BrowserRouter>
       <div className="app-container">

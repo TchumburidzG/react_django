@@ -6,11 +6,7 @@ import './carousel.css';
 import next from '../../assets/icons/next.svg';
 import back from '../../assets/icons/back.svg';
 
-
-
-
-export default function MobilSlider({  item }) {
-
+export default function MobilSlider({ item }) {
   const CustomPrevArrow = ({ onClick }) => (
     <button className="custom-prev-arrow arrows" onClick={onClick}>
       <img src={back} alt="Previous" />
@@ -56,7 +52,6 @@ export default function MobilSlider({  item }) {
   };
 
   return (
-
     <div className="modal-content" >
       <Slider {...settings}>
         {morePics()}

@@ -1,33 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.6d0a218d.css",
-    "main.js": "/static/js/main.d267bb2c.js",
+    "main.css": "/static/css/main.f034ddae.css",
+    "main.js": "/static/js/main.ed956394.js",
     "static/js/787.2de99119.chunk.js": "/static/js/787.2de99119.chunk.js",
     "static/media/cover.jpg": "/static/media/cover.0d4c278f369b59616b9e.jpg",
-    "static/media/puzzi81.jpg": "/static/media/puzzi81.5691b98b4e575cfaade2.jpg",
-    "static/media/puzzi103.jpg": "/static/media/puzzi103.31b1a8f750d1ada50089.jpg",
     "static/media/floor.jpg": "/static/media/floor.1ed91e7fbb86dfb06178.jpg",
-    "static/media/sg5.jpg": "/static/media/sg5.e46b7acf49cc5ae869e6.jpg",
-    "static/media/sg4.jpg": "/static/media/sg4.b87e32279ff21d1e6a7b.jpg",
-    "static/media/sg7.jpg": "/static/media/sg7.4596b88ee70b50d327d0.jpg",
-    "static/media/puzzi10.jpg": "/static/media/puzzi10.8ccdd86f7227159f8bc8.jpg",
     "static/media/afterrepair.jpg": "/static/media/afterrepair.cef0ed8ae3182ea54d30.jpg",
-    "static/media/puzzi101.jpg": "/static/media/puzzi101.4cd0430a86862f727cd3.jpg",
-    "static/media/sg1.jpg": "/static/media/sg1.57c00c3c0d14426d0fa6.jpg",
-    "static/media/puzzi8.jpg": "/static/media/puzzi8.39f03f6cf9c66a744122.jpg",
-    "static/media/puzzi83.jpg": "/static/media/puzzi83.48e61daa83e11b29b73f.jpg",
-    "static/media/puzzi82.jpg": "/static/media/puzzi82.64d8ad2a96658e5e73ae.jpg",
-    "static/media/text.jpg": "/static/media/text.e3dc0378727460076e9f.jpg",
-    "static/media/sg3.jpg": "/static/media/sg3.6e8dc215ce5af63d172b.jpg",
     "static/media/vitrine.jpg": "/static/media/vitrine.2542650451c25c85098a.jpg",
-    "static/media/sg2.jpg": "/static/media/sg2.d10784e39eee6096aa02.jpg",
-    "static/media/puzzi102.jpg": "/static/media/puzzi102.153135317d64e2f7981a.jpg",
-    "static/media/sg6.jpg": "/static/media/sg6.96caf1e17e44abde4828.jpg",
     "static/media/furniture.jpeg": "/static/media/furniture.6f2dc1690d1bbbcd8223.jpeg",
-    "static/media/sg10.jpg": "/static/media/sg10.b652717211c8bd4bc747.jpg",
-    "static/media/sg8.jpg": "/static/media/sg8.b652717211c8bd4bc747.jpg",
-    "static/media/sg11.jpg": "/static/media/sg11.ff5eff87f09c137a42aa.jpg",
-    "static/media/sg9.jpg": "/static/media/sg9.ff5eff87f09c137a42aa.jpg",
     "static/media/auto.jpg": "/static/media/auto.4a700a8aa8f334db1c73.jpg",
     "static/media/general.jpg": "/static/media/general.a520549535c0661d5cdb.jpg",
     "static/media/present.avif": "/static/media/present.4b0dc0ac4b2175da4873.avif",
@@ -47,12 +27,12 @@
     "static/media/menu.svg": "/static/media/menu.0d3c31af19b9c297e9457042ec495ba1.svg",
     "static/media/next.svg": "/static/media/next.fa18ae9d984a5d6448c255baff612ad3.svg",
     "static/media/back.svg": "/static/media/back.0537bdf529f1f2b50ed6646cfff1bc87.svg",
-    "main.6d0a218d.css.map": "/static/css/main.6d0a218d.css.map",
-    "main.d267bb2c.js.map": "/static/js/main.d267bb2c.js.map",
+    "main.f034ddae.css.map": "/static/css/main.f034ddae.css.map",
+    "main.ed956394.js.map": "/static/js/main.ed956394.js.map",
     "787.2de99119.chunk.js.map": "/static/js/787.2de99119.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d0a218d.css",
-    "static/js/main.d267bb2c.js"
+    "static/css/main.f034ddae.css",
+    "static/js/main.ed956394.js"
   ]
 }
