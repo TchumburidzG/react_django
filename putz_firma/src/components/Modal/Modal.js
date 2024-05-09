@@ -4,9 +4,7 @@ export const Modal = ({  onClose, children }) => {
   };
   return (
     <div className="modal-overlay" onClick={closeModal}>
- 
         {children}
-    
     </div>
   );
 };

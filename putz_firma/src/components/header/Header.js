@@ -30,14 +30,14 @@ export default function Header({ showMenu, setShowMenu }) {
             <img className='draging' src={phone} style={{ paddingRight: '4px' }} alt="phone number, ტელეფონის ნომერი" />
             511 33 44 77
           </div>
-              <div className='contact-links'>
-                <div className='contact-icons'>
-              <WhatsApp />
-              <Messenger />
-              <Instagram />
-              <TikTok />
+            <div className='contact-links'>
+              <div className='contact-icons'>
+                <WhatsApp />
+                <Messenger />
+                <Instagram />
+                <TikTok />
               </div>
-          </div>
+            </div>
           <div className="menu-btn" onClick={toggleMenu} >
             <img src={MenuIcon} alt="menu" />
           </div>

@@ -233,7 +233,26 @@ nav ul li a {
     width: 30px;
   }
 }
+@media only screen and (max-width: 450px) {
+  .contact-links{
+    width: 11rem;
+  }
+}
 @media only screen and (max-width: 380px) {
+  .contact-links{
+    width: 10rem;
+  }
+
+  .messenger-container img,
+  .whatsapp-container img,
+  .instagram-container img,
+  .tiktok-container img {
+    height: 25px;
+    width: 25px;
+  }
+}
+
+@media only screen and (max-width: 340px) {
   .contact-links{
     width: 10rem;
   }
