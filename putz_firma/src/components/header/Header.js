@@ -24,6 +24,7 @@ export default function Header({ showMenu, setShowMenu }) {
           <ul>
             <li><Link to="/">მთავარი</Link></li>
             <li> <Link to="/contact">კონტაქტი</Link></li>
+            <li> <Link to="/services">სერვისები</Link></li>
           </ul>
           
           <div className='telephone'>

@@ -39,14 +39,16 @@
   height: 100%;
   display: flex;
   flex-direction: column;
+  z-index: 23 !important;
 }
 
 .vertical-items {
-  height: 13rem;
+  height: 17rem;
   padding: 0;
   margin: 0;
   display: flex;
   flex-direction: column;
+  padding: 0;
 }
 
 .sidebar-container{
@@ -81,9 +83,9 @@
   font-size: 1rem;
 }
 
-/* .sidebar-names:hover{
+ /* .sidebar-names:hover{
   background-color: beige;
-} */
+}  */
 .sidebar-icon {
   height: 2.2rem;
   width: 2.2rem;
@@ -190,4 +192,14 @@
 }
 .draging{
   -webkit-user-drag: none;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  z-index: 99;
 }
