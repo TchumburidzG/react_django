@@ -2,8 +2,8 @@ from django.db import models
 
 class Device(models.Model):
     name = models.CharField("მოდელი", max_length=240)
-    first_preis = models.IntegerField("ფასი 3 საათით")
-    second_preis = models.IntegerField("ფასი 24 საათით")
+    first_preis = models.CharField("საათიების რაოდენობა და ფასი", max_length=100)
+    second_preis = models.CharField("საათიების რაოდენობა და ფასი",  max_length=100)
     purpose = models.CharField("დანიშნულება", max_length=400)
 
     def __str__(self):

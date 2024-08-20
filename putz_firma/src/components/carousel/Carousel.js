@@ -40,8 +40,8 @@ export default function MobilSlider({ item }) {
         </div>
         <div className="card__content">
           <div className="prices">
-            <span>3 სთ- {item.first_preis}₾</span>
-            <span className='distance'>24 სთ- {item.second_preis}₾</span>
+            <span>{item.first_preis}₾</span>
+            <span className='distance'>{item.second_preis}₾</span>
           </div>
           <div className="card__text">
             {item.purpose}
