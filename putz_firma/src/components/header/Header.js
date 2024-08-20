@@ -44,7 +44,7 @@ export default function Header({ showMenu, setShowMenu }) {
           </div>
           </nav>
       </div>
-      <div className='cover-container' > <img src={cover} alt="cover" /></div>
+      <div className='cover-container' > <img className="cover-photo" src={cover} alt="cover" /></div>
     </header>
   );
 }
